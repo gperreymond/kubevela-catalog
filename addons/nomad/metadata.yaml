@@ -2,7 +2,6 @@ name: nomad
 version: 1.7.2
 description: Nomad Controller is a Kubernetes Controller for Nomad.
 icon: https://raw.githubusercontent.com/gperreymond/kubevela-catalog/master/images/logos/nomad.jpg
-url: https://github.com/gperreymond/kubevela-nomad-controller
 
 tags:
   - Hashicorp
