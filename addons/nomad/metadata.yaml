@@ -1,0 +1,18 @@
+name: nomad
+version: 1.7.2
+description: Nomad Controller is a Kubernetes Controller for Nomad.
+icon: https://raw.githubusercontent.com/gperreymond/kubevela-nomad-controller/master/images/logos/nomad.png
+url: https://github.com/gperreymond/kubevela-nomad-controller
+
+tags:
+  - Hashicorp
+  - Nomad
+
+deployTo:
+  control_plane: true
+  runtime_cluster: false
+
+dependencies:
+  - name: fluxcd
+
+invisible: false
