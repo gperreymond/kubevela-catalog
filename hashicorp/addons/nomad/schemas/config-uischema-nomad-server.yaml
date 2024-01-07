@@ -1,0 +1,27 @@
+- jsonKey: NOMAD_ADDR
+  label: Nomad Address
+  sort: 1
+  validate:
+    required: true
+    defaultValue: "http://localhost:4646"
+
+- jsonKey: NOMAD_REGION
+  label: Nomad Region
+  sort: 2
+  validate:
+    required: false
+    defaultValue: "global"
+- jsonKey: NOMAD_TOKEN
+  label: Nomad Token
+  sort: 3
+  uiType: Password
+  validate:
+    required: false
+    defaultValue: ""
+- jsonKey: NOMAD_HTTP_AUTH
+  label: Nomad Basic Auth
+  sort: 4
+  uiType: Password
+  validate:
+    required: false
+    defaultValue: ""
