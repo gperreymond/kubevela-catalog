@@ -4,3 +4,17 @@ metadata:
   name: nomad
   namespace: vela-system
 spec:
+  components:
+  - name: namespace
+    type: raw
+    properties:
+      apiVersion: v1
+      kind: Namespace
+      metadata:
+        name: nomad-system
+  workflow:
+    steps:
+    - name: create namespace nomad-system
+      type: apply-component
+      properties:
+        component: namespace

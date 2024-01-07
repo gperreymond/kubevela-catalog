@@ -13,5 +13,6 @@ deployTo:
 
 dependencies:
   - name: fluxcd
+  - name: kube-trigger
 
 invisible: false
